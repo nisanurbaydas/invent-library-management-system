@@ -1,0 +1,31 @@
+{
+  "name": "invent-library-management-system",
+  "version": "1.0.0",
+  "description": "\"# invent-library-management-system\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisanurbaydas/invent-library-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisanurbaydas/invent-library-management-system/issues"
+  },
+  "homepage": "https://github.com/nisanurbaydas/invent-library-management-system#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "moment": "^2.29.4",
+    "pg": "^8.8.0",
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
+  }
+}
